@@ -1,5 +1,5 @@
-SELECT m.nombre, count(*)
-from medicos m, recetas r
-where m.id_medico=r.id_medico
-group by m.nombre
-order by 2 desc
+SELECT m.nombre, COUNT(*) AS recuento_recetas
+FROM medicos m
+INNER JOIN recetas r ON m.id_medico = r.id_medico
+GROUP BY m.nombre
+ORDER BY recuento_recetas DESC;
