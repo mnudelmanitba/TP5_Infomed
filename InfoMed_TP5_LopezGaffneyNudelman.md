@@ -27,3 +27,5 @@ rta
 
 PARTE 2: Bases de Datos
 1. Obtener el nombre y la dirección de los pacientes que viven en Buenos Aires.
+
+![fig1](image.png)
