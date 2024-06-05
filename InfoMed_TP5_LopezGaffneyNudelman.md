@@ -31,7 +31,7 @@ rta
 select nombre, numero, calle from pacientes where ciudad='Buenos Aires' 
 
 ```
-![Figura 2: Query 1](Figuras/query1.png)
+![Figura 2: Query 1](Figuras/query1.jpeg)
 
 
 ### 2. Obtener la cantidad de recetas emitidas por cada médico.
@@ -44,7 +44,7 @@ GROUP BY m.nombre
 ORDER BY recuento_recetas DESC;
 
 ```
-![Figura 3: Query 2](Figuras/query2.png)
+![Figura 3: Query 2](Figuras/query2.jpeg)
 
 ### 3. Obtener el nombre de los pacientes junto con la fecha y el diagnóstico de todas las consultas médicas realizadas en junio del 2024.
 
@@ -56,7 +56,7 @@ and p.id_paciente=c.id_paciente
 order by c.fecha
 
 ```
-![Figura 4: Query 3](Figuras/query3.png)
+![Figura 4: Query 3](Figuras/query3.jpeg)
 
 ### 4. Obtener el nombre de los medicamentos prescritos más de una vez por el médico con ID igual a 2.
 
@@ -69,7 +69,7 @@ group by nombre
 having count(*)>1
 
 ```
-![Figura 5: Query 4](Figuras/query4.png)
+![Figura 5: Query 4](Figuras/query4.jpeg)
 
 ### 5. Obtener el nombre de los pacientes junto con la cantidad total de recetas que han recibido.
 
@@ -80,7 +80,7 @@ where p.id_paciente=r.id_paciente
 group by p.nombre
 
 ```
-![Figura 6: Query 5](Figuras/query5.png)
+![Figura 6: Query 5](Figuras/query5.jpeg)
 
 ### 6.Obtener el nombre del medicamento más recetado junto con la cantidad de recetas emitidas para ese medicamento.
 
@@ -93,7 +93,7 @@ order by count(*) desc
 limit 1;
 
 ```
-![Figura 7: Query 6](Figuras/query6.png)
+![Figura 7: Query 6](Figuras/query6.jpeg)
 
 ### 7. Obtener el nombre del paciente junto con la fecha de su última consulta y el diagnóstico asociado.
 
