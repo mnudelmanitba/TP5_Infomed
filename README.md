@@ -1,4 +1,4 @@
-![Logo](Figuras/logoITBA.png)
+![Logo](Figuras/logoitba.png)
 # Trabajo Práctico N°5
 ## BBDD, SQL y Manejo de Versiones
 
