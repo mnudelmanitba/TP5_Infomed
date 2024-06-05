@@ -98,7 +98,19 @@ limit 1;
 ### 7. Obtener el nombre del paciente junto con la fecha de su última consulta y el diagnóstico asociado.
 
 ```
-query 7
+SELECT p.nombre, c.diagnostico, c.fecha
+from pacientes p
+join consultas c on p.id_paciente=c.id_paciente
+WHERE 
+    c.fecha = (
+        SELECT 
+            MAX(c.fecha)
+        FROM 
+            consultas c
+        WHERE 
+            c.id_paciente = p.id_paciente
+    );
+    
 ```
 ![Figura 8: Query 7](Figuras/query7.png)
 
