@@ -18,7 +18,7 @@
 rta
 
 ### 2. Armar el diagrama de entidad relación.
-![Figura 1: Diagrama de Entidad Relación](Figuras/ERD_TP5.png)
+![Figura 1: Diagrama de Entidad Relación](Figuras/ERD_TP5_.png)
 
 ### 3. Considera que la base de datos está normalizada. En caso que no lo esté, ¿cómo podría hacerlo?
 rta
