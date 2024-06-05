@@ -1,10 +1,15 @@
-# TP5_Infomed
-Mi primer repositorio man
+![Logo](Figuras/logoitba.png)
+# Trabajo Práctico N°5
+## BBDD, SQL y Manejo de Versiones
 
-Mi primer commit en este cambio
-messi
+### Fecha de entrega: Miércoles 05 de Junio 2024
+### Informática Médica 2024
+* Prof. Carlos Lazzarino
+* Ingrid Celia Spessotti
+* Eugenia Camila Berrino
+* Aylin Agatha Vázquez Chenlo
 
-El repositorio dentro debe tener creado un archivo README adecuado como
-presentación del repositorio y del TP (nombre y apellido de alumnos, nombre de la
-materia, nombre y apellido de profesores, logo del ITBA y todo lo que crean
-necesario como portada del repositorio)
+
+### Autores:
+* Mateo Lopez Gaffney - 61845
+* Martina Nudelman - 62586
