@@ -112,7 +112,7 @@ WHERE
     );
     
 ```
-![Figura 8: Query 7](Figuras/query7.png)
+![Figura 8: Query 7](Figuras/query7.jpeg)
 
 ### 8. Obtener el nombre del médico junto con el nombre del paciente y el número total de consultas realizadas por cada médico para cada paciente, ordenado por médico y paciente.
 
@@ -124,7 +124,7 @@ group by m.nombre, p.nombre
 order by m.nombre
 
 ```
-![Figura 9: Query 8](Figuras/query8.png)
+![Figura 9: Query 8](Figuras/query8.jpeg)
 
 ### 9.Obtener el nombre del medicamento junto con el total de recetas prescritas para ese medicamento, el nombre del médico que lo recetó y el nombre del paciente al que se le recetó, ordenado por total de recetas en orden descendente.
 
@@ -148,7 +148,7 @@ ORDER BY
     total_recetas DESC;
 
 ```
-![Figura 10: Query 9](Figuras/query9.png)
+![Figura 10: Query 9](Figuras/query9.jpeg)
 
 ### 10.Obtener el nombre del médico junto con el total de pacientes a los que ha atendido, ordenado por el total de pacientes en orden descendente.
 
@@ -167,4 +167,4 @@ ORDER BY
 
 
 ```
-![Figura 11: Query 10](Figuras/query10.png)
+![Figura 11: Query 10](Figuras/query10.jpeg)
