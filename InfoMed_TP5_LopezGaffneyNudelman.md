@@ -15,13 +15,13 @@
 
 ## PARTE 1: Bases de Datos
 ### 1. ¿Qué tipo de base de datos es?
-rta
+Es una base de datos relacional SQL.
 
 ### 2. Armar el diagrama de entidad relación.
 ![Figura 1: Diagrama de Entidad Relación](Figuras/ERD_TP5_.png)
 
 ### 3. Considera que la base de datos está normalizada. En caso que no lo esté, ¿cómo podría hacerlo?
-rta
+No está normalizada. Los nombres y apellidos están juntos en un mismo campo para cada paciente y cada médico. Para resolver esto crearía una columna aparte para el apellido y lo separaría del nombre con un algoritmo de IA. Por otro lado 'Buenos Aires' está mal escrita en algunas filas como ' Buenos Aires' o 'buenos aires'.
 
 ## PARTE 2: Bases de Datos
 
@@ -31,7 +31,7 @@ rta
 select nombre, numero, calle from pacientes where ciudad='Buenos Aires' 
 
 ```
-![Figura 2: Query 1](Figuras/query1.jpeg)
+![Figura 2: Query 1](Figuras/query1_.jpeg)
 
 
 ### 2. Obtener la cantidad de recetas emitidas por cada médico.
@@ -112,7 +112,7 @@ WHERE
     );
     
 ```
-![Figura 8: Query 7](Figuras/query7.jpeg)
+![Figura 8: Query 7](Figuras/query7.jpg)
 
 ### 8. Obtener el nombre del médico junto con el nombre del paciente y el número total de consultas realizadas por cada médico para cada paciente, ordenado por médico y paciente.
 
