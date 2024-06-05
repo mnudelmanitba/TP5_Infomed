@@ -18,7 +18,7 @@
 Es una base de datos relacional SQL.
 
 ### 2. Armar el diagrama de entidad relación.
-![Figura 1: Diagrama de Entidad Relación](Figuras/ERD_TP5_.png)
+![Figura 1: Diagrama de Entidad Relación](Figuras/ERD___TP5.png)
 
 ### 3. Considera que la base de datos está normalizada. En caso que no lo esté, ¿cómo podría hacerlo?
 No está normalizada. Los nombres y apellidos están juntos en un mismo campo para cada paciente y cada médico. Para resolver esto crearía una columna aparte para el apellido y lo separaría del nombre con un algoritmo de IA. Por otro lado 'Buenos Aires' está mal escrita en algunas filas como ' Buenos Aires' o 'buenos aires'.
@@ -31,7 +31,7 @@ No está normalizada. Los nombres y apellidos están juntos en un mismo campo pa
 select nombre, numero, calle from pacientes where ciudad='Buenos Aires' 
 
 ```
-![Figura 2: Query 1](Figuras/query1_.jpeg)
+![Figura 2: Query 1](Figuras/query1_.png)
 
 
 ### 2. Obtener la cantidad de recetas emitidas por cada médico.
